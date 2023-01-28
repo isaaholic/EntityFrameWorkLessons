@@ -10,8 +10,6 @@ namespace EntityFrameworkLesson2.Models
     {
         public DateTime DateOut { get; set; }
         public DateTime DateIn { get; set; }
-
-        public int StudentId { get; set; }
         public Student Student { get; set; }
 
         public int BookId { get; set; }
